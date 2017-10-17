@@ -116,6 +116,7 @@ app.config(["$provide", "$compileProvider", "$controllerProvider", "$filterProvi
 		 		{
 		 			name: 'take',
 		 			files: [
+		 				'./asset/css/take.css',
 		 				'./controller/takeController.js',
 		 			]
 		 		},
