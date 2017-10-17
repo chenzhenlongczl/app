@@ -1,0 +1,1 @@
+angular.bootstrap(angular.element(document.getElementsByTagName('html')[0]), ['app']);

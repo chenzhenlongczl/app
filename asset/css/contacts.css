@@ -1,0 +1,99 @@
+.contactsBody{
+	min-width: 320px;
+	background-color: #ebebeb;
+}
+.contactsBody .header{
+	background-color: #2c69cf;
+	color: #fff;
+	overflow: hidden;
+}
+.contactsBody .header>div{
+	padding: 36px 15px 15px;
+	overflow: hidden;
+}
+.contactsBody .header-left{
+	float: left;
+	letter-spacing: 5px;
+	font-size: 18px;
+}
+.contactsBody .header-right{
+	float: right;
+	overflow: hidden;
+}
+.contactsBody .header-right>span{
+	float: left;
+	width: 25px;
+	margin-right: 20px;
+}
+.contactsBody .header-right>span:nth-child(2){
+	margin-right: 0;
+}
+.contactsBody .content {
+	padding-bottom: 20%;
+}
+.contactsBody .list-group {
+	background-color: #fff;
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+.contactsBody .list-group>span{
+	color: #000;
+}
+.contactsBody .list-group .list{
+	color: #404040;
+	overflow: hidden;
+	padding: 15px;
+}
+.contactsBody .list-group .list>span{
+	margin-top: 2px;
+	float: left;
+}
+.contactsBody .list-groupImg{
+	width: 15px;
+	float: right;
+}
+.contactsBody .list-groupImg-down {
+	width: 25px;
+	float: right;
+}
+.contactsBody .list-line{
+	border-top: 1px solid #eed;
+	width: 100%;
+}
+.contactsBody .list-line:last-child{
+	border-bottom: 1px solid #eed;
+}
+.contactsBody .list-user{
+	overflow: hidden;
+}
+.contactsBody .list-user span{
+	clear: both;
+	display: inline-block;
+	line-height: 70px;
+}
+.contactsBody .list-img{
+	margin: 5px 15px;
+	width: 60px;
+	max-width: 80px;
+	float: left;
+}
+.contactsBody .list-img img{
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+	
+	<div class="loginBody">
+		
+		<div class="top">
+			<div class="head-img">
+				<img src="./asset/images/head-img.png" alt="">
+			</div>
+			<form class="loginForm" action="" novalidate>
+
+				<div class="login">
+					<span>帐号：</span>
+					<div class="head-line">
+						<input type="text" class="text" name="user" placeholder="手机号" onfocus="placeholder= ''" onblur="placeholder= '手机号'" required/>
+					</div>
+				</div>
+
+				<div class="login">
+					<span>密码：</span>
+					<div id="headLine" class="head-line">
+						<input type="text" id="pass" class="text" placeholder="密码" onfocus="placeholder= ''" onblur="placeholder= '密码'" />
+						<div id="passImg"><img src="./asset/images/password-img.png" alt=""></div>
+					</div>
+				</div>
+
+				<div class="remember">
+					<div class="checkbox">
+						<input type="checkbox" checked="checked" />
+						<span>记住密码</span>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" />
+						<span>自动登录</span>
+					</div>
+				</div>
+
+				<div class="btn">
+					<span ng-click="jump('personalMain.personal');">登录</span>
+				</div>
+
+				<div class="top-footer">
+					<div>
+						<span class="register" ng-click="jump('register');">注册帐号</span>
+						<span class="top-footerLine"></span>
+						<span class="repass" ng-click="jump('repass');">忘记密码？</span>
+					</div>
+				</div>
+
+			</form>
+		</div>
+
+		<div class="bottom">
+			
+			<div class="bottom-line"><i></i><span>第三方登录</span><i></i></div>
+
+			<div class="bottom-party">
+				<div class="bottom-img">
+					<div><img src="./asset/images/weixin.png" alt=""></div>
+				</div>
+				<div class="bottom-img">
+					<div><img src="./asset/images/qq.png" alt=""></div>
+				</div>
+				<div class="bottom-img">
+					<div><img src="./asset/images/weibo.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+

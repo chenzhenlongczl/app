@@ -1,0 +1,66 @@
+
+		<div class="personalBody" ng-swipe-left="jump('personalMain.info');" ng-swipe-right="jump('personalMain.contacts');">
+			<div class="header">
+
+				<div class="header-top">
+					<span>个人中心</span>
+					<div><img src="./asset/images/personal-img5.png" alt=""></div>
+				</div>
+
+				<div class="header-bottom">		
+
+					<div class="headImg"><img src="./asset/images/head-img.png" alt=""></div>
+					<div class="header-bottom-body">
+
+						<ul class="header-bottom-center">
+							<li>
+								<span>王司徒<i class="personalImg2"><img src="./asset/images/personal-img2.png" alt=""></i></span>
+							</li>
+							<li>132***1245</li>
+						</ul>
+
+						<ul class="header-bottom-right">
+							<li>关注医院：3</li>
+							<li>已预约：2</li>
+						</ul>
+
+					</div>
+
+				</div>	<!--sda-->
+
+			</div>
+
+			<div class="content">
+				
+				<ul class="content-ul">
+					<li>
+						<div ng-click="jump('personalData');">
+							<div class="content-ulImg">
+								<img src="./asset/images/personal-img1.png" alt="">
+							</div>
+							<span >个人资料</span>
+						</div>
+						<span class="content-ul-line"></span>
+						<div  ng-click="jump('check');">
+							<div class="content-ulImg">
+								<img src="./asset/images/personal-img3.png" alt="">
+							</div>
+							<span >实名认证</span>
+						</div>
+					</li>
+					<li>
+						<div ng-click="jump('repass');">
+							<div class="content-ulImg">
+								<img src="./asset/images/personal-img4.png" alt="">
+							</div>
+							<span>重置密码</span>
+						</div>
+					</li>
+				</ul>
+			
+				<div class="btn"><span ng-click="jump('login')">退出登录</span></div>	
+			
+			</div>
+		</div>
+		
+		<personal-directive></personal-directive>

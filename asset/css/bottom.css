@@ -1,0 +1,39 @@
+.personalMainfooter {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px 0;
+	overflow: hidden;
+	border-top: 1px solid #eee;
+	min-width: 320px;
+}
+.personalMainfooter>span {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.personalMainfooter span {
+	display: inline-block;
+	font-size: 14px;
+	color: #999;
+}
+.personalMainfooter .footerImg{
+	width: 25%;
+	position: relative;
+}
+.personalMainfooter .footerImg span{
+	position: absolute;
+	top: -3px;
+	right: -8px;
+	width: 15px;
+	line-height: 15px;
+	text-align: center;
+	background-color: #ff3f3e;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 12px;
+}
+.personalMainfooter>span .active {
+	color: #2d6acf;
+}

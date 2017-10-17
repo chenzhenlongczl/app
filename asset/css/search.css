@@ -1,0 +1,86 @@
+.searchBody .header{
+	width: 100%;
+	background-color: #2c69cf;
+}
+.searchBody .header-bg {
+	color: #fff;
+	position: relative;
+	min-width: 320px;
+	max-width: 460px;
+	padding-bottom:10px;
+	overflow: hidden;
+}
+.searchBody .header-bg .header-left {
+    color: #fff;
+    width: 10%;
+    float: left;
+    position: relative;
+    margin-top: 36px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+.searchBody .header-bg .personal {
+	position: absolute;
+	top: 0;
+	right: 20%;
+}
+.searchBody .personalDataLeft {
+	width: 15px;
+	display: inline-block;
+}
+.searchBody .header-input{
+	width: 70%;
+	border-bottom: 1px solid #eed;
+	float: left;
+	margin-top: 36px;
+}
+.searchBody .header-input input{
+	width: 95%;
+	color: #fff;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+.searchBody .header-font{
+	width: 15%;
+	float: left;
+	margin-top: 36px;
+	text-align: center;
+}
+
+.searchBody .content{
+	margin: 10px;
+	letter-spacing: 2px;
+	min-width: 320px;
+	overflow: hidden;
+}
+.searchBody .content-top{
+	font-size: 13px;
+}
+.searchBody .content-bottom{
+	margin: 20px 0;
+}
+.searchBody .content-bottom li{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+.searchBody .content-bottom li span{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

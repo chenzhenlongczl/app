@@ -1,0 +1,143 @@
+.loginBody input::-webkit-input-placeholder {
+      /* placeholder颜色  */
+      color: black;
+      /* placeholder字体大小  */
+      letter-spacing: 3px;
+     }
+.loginBody {
+	width:100%;
+  	background: url(../images/login-bg.png) no-repeat;
+  	min-width: 320px;
+  	min-height: 480px;
+  	overflow: hidden;
+	background-size:cover;
+	position: fixed;
+	height: 100%;
+}
+.loginBody .top{
+	overflow: hidden;
+}
+.loginBody .head-img{
+	width: 30%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.loginBody .loginForm{
+	margin: 0 10%;
+}
+.loginBody .login {
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+.loginBody .head-line{
+	border-bottom: 1px solid #393939;
+	float: right;
+	width: 80%;
+	position: relative;
+}
+.loginBody .login span{
+	float: left;
+	display: inline-block;
+	width: 20%;
+	font-size: 16px;
+}
+.loginBody .login .text {
+	width: 95%;
+	margin-bottom: 4px;
+	border: none;
+	font-size: 14px;
+	background: transparent;
+	outline: none;
+}
+.loginBody .head-line div{
+	position: absolute;
+	bottom: 50%;
+	right: 10px;
+	transform: translateY(50%);
+	width: 8%;
+}
+.loginBody .remember {
+	overflow: hidden;
+	margin-left: 20%;
+}
+.loginBody .remember>div{
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+.loginBody .checkbox input{
+	vertical-align:middle;  
+}
+.loginBody .checkbox span{
+	vertical-align:middle;  
+}
+.loginBody .loginForm .btn {
+	width: 100%;
+	line-height: 40px;
+	background-color: #2c69cf;
+	text-align: center;
+	margin: 5% 0;
+	border-radius: 5px;
+}
+.loginBody .loginForm .btn span{
+	color: #fff;	
+	width: 100%;
+}
+.loginBody .top-footer{
+	height: 20px;
+}
+.loginBody .top-footer .top-footerLine {
+	border: 1px solid black;
+	height: 16px;
+	margin: 0 5%;
+}
+.loginBody .top-footer .register, .loginBody .top-footer .repass{
+	color: black;
+	display: inline-block;
+}
+.loginBody .top-footer>div{
+	text-align: center;
+}
+.loginBody .bottom {
+	width: 90%;
+	margin-top: 10%;
+}
+.loginBody .bottom-line i{
+	width: 30%;
+	height: 1px;
+	background-color: #000;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.loginBody .bottom-line span {
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+}
+.loginBody .bottom-party{
+	overflow: hidden;
+	margin-top: 5%;
+}
+.loginBody .bottom-img {
+	width: 33.33%;
+	float: left;
+}
+.loginBody .bottom-img>div{
+	width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+.registerBody input::-webkit-input-placeholder {
+      /* placeholder颜色  */
+      color: #8b8b8b;
+     }
+.registerBody{
+	min-width: 320px;
+}
+.registerBody .header {
+	height: 80px;
+	background-color: #2c69cf;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+.registerBody .header .registerLeft {
+	position: absolute;
+	left: 15px;
+	bottom: 20px;
+}
+.registerBody .registerLeft {
+	width: 15px;
+	float: left;
+}
+.registerBody .header span{
+	display: inline-block;
+	font-size: 18px;
+	margin-top: 36px;
+	letter-spacing: 3px; 
+}
+.registerBody .content {
+	margin: 10% 15px 0;
+}
+.registerBody .register {
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 30px;
+	position: relative;
+}
+.registerBody .register .getCode {
+	position: absolute;
+	top: 0;
+	right: 15px;
+	color: #336ed0;
+}
+.registerBody .content-line{
+	border-bottom: 1px solid black;
+	width: 100%;
+	position: relative;
+}
+.registerBody .register span{
+	float: left;
+	display: inline-block;
+	width: 20%;
+	font-size: 16px;
+}
+.registerBody .register .text {
+	font-size: 14px;
+	width: 95%;
+	border: none;
+	background: transparent;
+	outline: none;
+	margin-bottom: 5px;
+	letter-spacing: 3px;
+}
+.registerBody .content-line div{
+	position: absolute;
+	bottom: 50%;
+	right: 10px;
+	transform: translateY(50%);
+	width: 8%;
+}
+.registerBody .checkbox input{
+	vertical-align:middle;  
+}
+.registerBody .checkbox span{
+	font-size: 14px;
+	vertical-align:middle;  
+}
+.registerBody .btn {
+	margin: 10% auto;
+	width: 98%;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 10px;
+	letter-spacing: 3px;
+	background-color: #2c69cf;
+	
+}
+.registerBody .btn div{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
